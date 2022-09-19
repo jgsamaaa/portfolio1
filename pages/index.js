@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Main from '../components/Main';
 
 export default function Home() {
   return (
@@ -9,11 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div>
-        <h1 className="p-20 bg-blue-400 text-center text-5xl text-bold">
-          HELLO
-        </h1>
-      </div>
+      <Main />
     </div>
   );
 }
