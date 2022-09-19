@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import About from '../components/About';
 import Main from '../components/Main';
 
 export default function Home() {
@@ -11,6 +12,10 @@ export default function Home() {
       </Head>
 
       <Main />
+
+      <div className="bg-rose-300/40">
+        <About />
+      </div>
     </div>
   );
 }
