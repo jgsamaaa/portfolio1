@@ -12,15 +12,13 @@ const About = () => {
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
-          <p className="py-2 text-gray-600">
-            / / I am not your average developer
-          </p>
+          <p className="py-2 text-gray-600">/ / James Gabriel Dumaug</p>
           <p className="py-2 text-gray-600">
             I am a person who is very optimistic in every trial that I might be
             facing and not afraid of being criticized. Fascinated with how
             intricate programming can be I was quickly drawn to learn it.
           </p>
-          <p className="py-2 text-gray-600">I&rsquo;m James Gariel Dumaug, </p>
+
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
               Check out some of my latest projects.
